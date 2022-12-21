@@ -909,7 +909,7 @@ footer .bottom-details .bottom_text {
     height: 10rem;
 }
 .contact{
-    width: 50%;
+    width: 100%;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.31);
     border-bottom: 1px solid rgba(255, 255, 255, 0.31);
@@ -917,7 +917,7 @@ footer .bottom-details .bottom_text {
     padding-bottom: 70px;
     border-radius: 5%;
     border: 2px solid #A0E4CB;
-    margin: 2rem auto 2rem 25%;
+    margin: 2rem auto 2rem 0rem;
 }
 
 .contact h1{
@@ -1869,7 +1869,7 @@ and (-webkit-min-device-pixel-ratio: 1){
         height: 15rem;
     }
     .head_con{
-        margin: 1rem auto auto 1rem;
+        margin: 1rem auto auto 4rem;
     }
     .head_contant{
         font-size: 1rem;
@@ -1951,7 +1951,19 @@ and (-webkit-min-device-pixel-ratio: 1){
     }
     .btn1{
         display: flex;
-        margin: auto auto auto -1rem;
+        margin: 1rem auto auto -1rem;
+    }
+    .contact{
+        border: none;
+    }
+    .contact h1{
+        font-size: 1rem;
+    }
+    .talk_img{
+        height: 5rem;
+    }
+    .box .flex input{
+        margin-left: -3rem;
     }
 }
 
